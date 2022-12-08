@@ -1,0 +1,359 @@
+0 4,5:4:hyponym 7::delmod 9::delcst 14,15:17,16:move 17,18,19,20:11,12,13,14:move 21:21:synonym :15:inmod :18:split :19,20:incst
+1 3:3:synonym 7::delcst 12::delcst 13::delcst 14:30,31:synonym :7:split :8,9:incst :14:split :27,28,29,32,33,34:inoth
+2 4,5,6::delmod 7:4:verbf
+3 0,1,2::deloth 3::delcst 5::delcst 6:4:synonym 7::delcst 8:6:synonym :1,3:inoth :5:incst
+4 2,6::delcst 4::delmod 12::delcst 13:11:verbf 18::delcst 25::delcst :2,5:incst :16:inmod :17:incst :24:inoth
+5 0:2:move 6::deloth
+6 3:3:synonym
+7 0,1:20,23:move 2::delcst 4:1:hyponym 13:10:synonym 14::delcst 19,20::delcst 21:16:POSchange 22::delcst :15,19:incst :17:incst :21,22:inoth
+8 0:2,3:synonym 2,1:4,5:move 3::delcst 4:1:move 5::delcst 6::delcst 11,20::delcst 26:27:synonym 31:32,33:hyponym :0:incst :6:split :7:incst :12,13:incst
+9 2:2,3:synonym 6:7:synonym 21::delcst 22::delcst :9,10,8:inoth :11:incst :25:split :26,27,28,29:incst
+10 7,12::delcst :7:inoth
+11 0,1::delcst 2:0:move 3:3:POSchange 12:13,14:verbf :1:incst :2:incst :4:incst
+12 1:1,2:hyperonym 4,5,6,7::delmod 8::delcst 9,10::delcst 11,12:6:synonym 14:8:hyperonym :5:incst
+13 0:0:err
+14 0:3:move 1:4:hyponym 2,3:2,5,6,7,8:synonym 4,5,6,7,8,9,10::delmod 11::delcst 12::delcst 13:1:POSchange 14::delcst :0:incst
+15 0,1:10,11:move 3,4:1:hyperonym
+16 0,1,2,3:5,6,7,8:move 4::delcst 6:1:hyperonym 7::delcst
+17 0,1:5,6:hyperonym 2:7:move 3::delcst 4::delmod 5:2,3:pos2neg :0,1,4:toImp
+18 3,4::delmod 7::deloth
+19 2::delmod 10::delcst 13,14,15,16,17,11,12::delmod
+20 4:7:move 5,6,7,8,9,10:8,9,10,12,11:move 11::delcst 12,13:4,5:move :6:incst
+21 7:7:hyperonym 8::delcst
+22 7::deloth
+23 8,9:8:p2a
+24 0::deloth 1::delcst
+25 21,22,23,24,25,26::delmod
+26 15,16::delcst :15:split :16,17:incst
+27 2,5::delcst 3:2:hyperonym 9,12::delcst 10:7:hyperonym
+28 7:14:move 8::delcst 9,10::delcst 13:7:verbf 14,15:8,9:move :10:incst :13:incst
+29 4,5::deloth 6::delcst 9::deloth
+30 5,6,7::delmod
+31 2:2:hyperonym 8:8:synonym
+32 9:9:synonym
+33 4:4:hyponym
+34 14,15,16,17,18::delmod
+35 1:1:hyponym 2:2:synonym 8:8:synonym 14,15,16,17::deloth 18::delcst 19,20,21,22,23::delmod
+36 2::delmod 9:8:hyperonym :9:incst
+37 0:1:verbf 7::delcst 14:17:verbf 20::delcst 21,22,23::delmod :0:incst :8:split :9:inoth :10:incst :23:split :24:inmod :25:incst :26,27,28:incst
+38 0:0:err
+39 1:1:hyperonym 11::delcst 15:16:hyperonym 16:17:POSchange 18::delcst 21:21:synonym :11:split :12:incst
+40 2::delmod 6::delmod 7:5:hyperonym 9,10::delmod 11:7:verbf 13::delcst 15,16::deloth 17::delcst 20::delcst 25:16:hyperonym 26::delmod 27:26,27:fromPron 28,29,30:20:hyperonym 34:30:verbf 35,36::delmod :17:split :18,19:incst :22:incst :23,24,25:inoth
+41 4:4:synonym 5::delmod 6:5:synonym 12:13:move 13:11:s2p :12:incst
+42 1:3:s2p 2:1:move 3:4,5:synonym 6::deloth 8::delcst 9:12,13:synonym 11::delcst 12:16:POSchange 13:15:move 15::deloth 20::deloth 21::delmod 35,34,33,32,31,30,29,28,27,26,25,24,23::delmod :2:incst :9:split
+43 0:0:err
+44 2:2:s2p 3:4:POSchange 4:3:a2p 6:8:p2s 7:13:synonym :5,6:incst :9:split :10,11,12:incst :19:split :20,21,22,23,24:incst
+45 0:0:err
+46 4::deloth 5,10::delcst 6::delcst 7:5:hyperonym 9:7:synonym 17:14:synonym 19:16:hyponym 20:17:synonym 21:18:synonym :4:inmod
+47 0,1,2::delmod 3::delcst 4::deloth 11::delcst 16,17,18,19:17,18,19,20:move 21,22:14:synonym 23:15:hyperonym 24:16:synonym :6:split :7:inoth
+48 0:0:err
+49 11:11:synonym 13::delmod
+50 1:4,3,2:synonym 2,3:1:pron 5::delcst 6,7:7:hyperonym 10::delcst 12,13::delcst 15::delmod :6:toImp :10:incst :13:incst
+51 4,5,6:4:hyperonym 7::delcst 22,23::deloth 28::deloth 31:26:synonym :5:inmod
+52 2:9:synonym 7,8,9::deloth 14::delcst 15:7:move 16:0:synonym 17:1:move 18,19:5,6:move :2:incst :8:incst
+53 7,8,9,10,11,12:18,19,20,21,22,24:move 14:10:synonym 20::delmod :8,9:incst :17:incst
+54 0:0:err
+55 1,0,2::delmod 3::delcst 11::delcst 12,13:7,8:synonym 19::delcst 20,21::delmod 22::delcst 29::delcst 37::delcst 38,39::delcst 41:36:verbf :12,13,16,17,24,26,34:inoth :33:split :37,38:inoth
+56 1,0::delcst 12::delcst 13::delmod 16,19::deloth :10:incst
+57 3:4,5:synonym 8,9,10,11::delmod 13:12:move 14::delcst 15:11:move :2:inoth
+58 0,1::deloth 2::delcst 7::deloth 10::delmod 16::delcst 17::delmod 18::delcst 24::delcst 25::delmod 26::delcst
+59 1,3,4:2:verbf 12:11:synonym 13:12,13:synonym 18::delmod :10:incst
+60 0:0:err
+61 0:5:move 1,2:4:p2a 3::delcst 4,5,6,7:0,1,2,3:move 9:7:synonym 15:13:hyperonym 23:20:synonym
+62 6::delcst 7:6:hyperonym
+63 0:0:err
+64 3::delcst 4:3:synonym 8:7:hyperonym :8:inmod
+65 3::delcst 4,5,6,7::delprop 8:6:move 10::delcst 11,13::delcst 12:11:POSchange 14,15:8,9:move 19,20,18::delmod 21:14:synonym 24::delmod :1,0:inmod :5:incst :10:incst
+66 0,1::delmod 2::delcst 5:2,3,4:synonym 12::deloth 14:12:synonym 17,20::delcst 19::deloth 24:19:synonym
+67 1,2:1:synonym
+68 2,6,7:2:synonym 3::delmod 5:5:s2p 8::delmod 9::delcst 10::delcst 15,16,17::delmod :3:inmod
+69
+70 2,3,4::delmod
+71
+72 3::delmod
+73 13:14:s2p :11:inoth
+74 11::delcst :11:split :12,13:incst
+75 12,13::delcst :12:split
+76 0:3:synonym 1::delcst 2::delcst 3,4:0,1:move 5:4:synonym 24:23:synonym :2:incst
+77 8,5::delcst 7::deloth :6:incst
+78 2,3,4::delmod 8,10:5:verbf 12,13::deloth 18::delcst 21::delcst 28,29,30,31:27,28,29,30:move 32::delcst 34::delcst 35,36::delcst 37,38:22,23:move :12:split :21:inmod :24:incst :26:incst
+79 6,7,8::delmod 11::delcst 12::delcst 13::delmod 17::delcst 18,19::delmod 29::delcst 30,31,32,33::delmod :8:split :9:incst
+80 3,4:3,4,5,6:synonym 14:16:hyperonym 15:17:synonym
+81 0::delcst 1:15:move 11::delcst 12,13::delmod 14,15,16,17:11,12,13,14:move 18:9:synonym 19::delcst :10:incst
+82 0:0:err
+83 1:1:hyperonym 19::delmod 21:20:fromPron
+84 2,3::deloth 9,11::delcst 10:11:move 13::delcst 14,15:7,8:move :9:incst
+85 0,1,2,3:0:synonym 4,5,6::delmod 12:6:hyperonym 16:11:verbf 21::delmod 23::delcst 24::delcst 25,26:17:pron 27:18:synonym 28::delmod 30,32:21:synonym 34::delmod 38:26:synonym :9:split :10:incst
+86 2::delmod 8:8:verbf :7:incst
+87 2:2:synonym
+88 19,24::delcst 22,23,20,21::delmod 34::delmod 36,37,38::deloth
+89 14::delcst 15:14:synonym 16:15,16:synonym
+90 3::delmod 7::delcst 8,9::deloth 10::delcst 11:7,9,10:pos2neg :6:incst :8:incst
+91 0::deloth 1,2:8:p2a 3::delcst 4,5,7:6,7,4:POSchange 6::delcst 8:1:move 9::delcst :0,2:incst :3:inmod :5:incst
+92 2::delcst 3:3,4:synonym :2:incst
+93 3:3:hyperonym
+94 3:4:synonym 4,5::deloth 7::delcst 8::deloth 15:16,17:synonym 16:13:move :2:inoth :6:split :14,15:incst
+95 3:3,4,5,6:synonym 4::delcst 9,8::delcst 11:12:verbf 17::delcst 18:19:POSchange 20::deloth 21::delcst 22:21:verbf :10:incst :18:incst
+96 0,1,2::deloth 3::delcst 7::delmod 13,14,15::delmod 16:8:verbf
+97 0,1:5:synonym 2:6:move 3::delcst
+98 0:3:POSchange 1,2,3,4,5::deloth 6,7,9,8::delcst 10:4:verbf 15:9:verbf 16:10,11:synonym :0,1,2:incst
+99 5::delmod
+100 3:3:hyperonym 6:6:synonym 11:12:synonym 12,13::deloth :11:incst
+101 0::deloth 1::delcst 6:4:pos2neg 7::delcst :5:incst
+102 4,5:4:synonym 7:6:synonym 13:12,13:synonym
+103 0:0,1:pos2neg 2::delcst 5:7:hyponym :3,4:incst
+104 0:0:err
+105 0,1,2,3,4,5::delprop 6::delcst 8,9::deloth 10:1:verbf 11,12::deloth 13,14,15::deloth 18,19,20::delmod 21::delcst 23::delcst 24:5,6:hyperonym 25::delcst
+106 1::deloth 2,3:4,5:move 4::delcst 5,6,7,8,9::delprop 10:3:POSchange :2,1:incst
+107 2,3,4::delmod 6::delcst 11,12,7,8,9::deloth 10::delcst 13::delcst 14,15,16,17,18::deloth :2,3,4:incst
+108 0:0:err
+109 0:0:err
+110 0:0:err
+111 8::delcst 9,10,11,12,13,14,15,16::deloth 17::delcst
+112 1::delmod 2:1:synonym 6:5:hyperonym
+113 4:4:synonym 10,11,12,13,14,15,16,17::deloth 26:18:synonym
+114 3:3:synonym 4:4:hyperonym 6,7,8::deloth
+115 2::delmod 8,9,10::delmod 21::delcst 22::delmod :16:incst
+116 0,1:7,8:move 2::delcst 4,12:1:synonym 5::delcst 11,10::delcst :2:incst
+117 0,1:6,7:move 2::delcst 5:2,3:hyponym 6,7::delmod 8::delcst 11,12,13,14,15,16::delmod 17::delcst 20:11:verbf :8:split
+118 1,2,3,4,5,6,7,9,8::deloth 10,11::delcst 12::delmod 14:2:hyperonym 16::delcst 17::delcst 18::delmod 19:6:synonym 24::delcst 31,32::delmod 35,36,37::delcst :4:split :5:incst :11:split :12:incst :21,22,23:incst
+119 0:0:err
+120 7::deloth
+121 2,3,4::delmod
+122 0,1,2,3,4::delmod 5::delcst 8:0:move 9::delcst 13,14,15::delmod :3:incst
+123 14,15,16::deloth
+124 0:0:err
+125 5,4::deloth 9::delcst 13,12,11,10::delmod :4,5,6:incst :10:incst
+126 0:0:err
+127 0,1,2,3,4,5::deloth 7,6::delcst 8,9:6:synonym 14,13,15,16,17,18:7,8,9,10,11,12:move 19,20,21:0,1,2:move
+128 0,1::delmod 2::delcst 4:3,4:synonym 5,6::delcst 7,8:1,2:move 11:7,8:synonym
+129 0::delmod 2::delmod 3::delcst 21::delcst 22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38::delprop :0,1,2,3,4,5,6,7:inprop :8:split :10:incst
+130 0,1,2,3,4,5,6::delmod 8,9,10,11:1:hyperonym 12::delcst 14:4:hyperonym :2:incst
+131 2:2:hyperonym 3::delmod 4:3,4:synonym 5::delcst 6,7,8:7,8,9:move 9,10::delcst 11,12::delmod 13:5:move :6:incst
+132 5,7::delcst 6::delmod
+133 :7,8,9:inmod
+134 12:12:synonym
+135 0::delmod
+136 0,1,2,3::delmod 4::delcst 7:2:synonym 10:9:move 11::delcst 12:6:synonym 13:7:move 19,20,21::delmod 26,27,28,29,30::delmod :5:incst :8:incst
+137 2,3,4::delmod 5::delcst 8::delmod 9::delcst 15,14::delcst 17,18,19,20::delmod :2:incst :9,10:incst
+138 0:6:move 1,2:5:p2a 7::delcst 8,11,12,13,16:0,1,2,3,4:move 9,10,14,15::deloth
+139 1,2,3,4,5,6,7,8,9::delprop 10,11,12,13:1:synonym 14::delcst 15::delmod 17,18,19,20::deloth 22:9,10,11,12:synonym 23:5:hyperonym 24::delmod 25,28:6,8:move 27::delmod :2:incst
+140 0,1:0:synonym 22:25,26:synonym :1:incst :14,15:inoth :19:inmod
+141 11:11:hyperonym 15:15:hyperonym 16:16:synonym
+142 6:8:hyperonym :1:incst :2:incst
+143 8:8:synonym 10::delcst 13:13:synonym 14::delcst 16::delcst :10:incst :15:incst
+144 4,5,6,7,8,9::delprop 16,17:10:hyperonym
+145 2:2:hyperonym 10,11::delcst 13,14:12:hyperonym 18,19::delmod :10:split :15:incst
+146 3,4::deloth 8:7,8:synonym 9:9:hyperonym 10::deloth :3:incst
+147 4,5::deloth 6::delcst 10::delmod 12,13,14,15,16,17::delprop 25:21:pron 26,27,28:19,20:p2a 29,30,31,32::delmod 33::delcst 34::delmod 35,36:17,18:move :4:incst :8:inmod
+148 0,1:13,14:move 2,3:18:hyperonym 4,5,6,7::delmod 8,9:16,17:move 10:9:hyperonym 11,12,13,14,15:4,5,6,7,8:move 16:0:move 17,18::delmod 19,20:1,2:move :3:incst :10,11:inmod :12:inmod :15:incst
+149 3::delcst 4::delmod :3:incst
+150 4::delcst 5,6,7,8,9::delprop 17,18,16,15,13,10,12,11,14::delprop 20::delmod 21:6:synonym 27:12:synonym :5:inmod :19:split :20,21,22,23:inprop
+151 5,6:5:hyperonym 7::delmod 8:7:hyperonym 9::delmod :6:incst :9,10,11:inprop
+152 5:5:hyperonym 11:12:synonym 12,13:14:s2p 14,15:15,16:verbf 20:21,22:synonym 21,22:23:verbf :11:split :13:incst
+153 1::delmod 5:4:hyponym 9::delcst 10:10:verbf 13:13:synonym :8:split :9:incst
+154 5::delcst 6::delmod 19::delcst 20::deloth 29::delcst :6:incst :11:split :13,12:incst :22:incst :31:split :32,33,34,35:incst :36:incst :37:inmod
+155 1:3:hyperonym 3::delmod 5::delcst 9::delcst 15::delcst 16:16:synonym :1,2:incst :9:split :15:incst
+156 1:1,2:synonym 3,4,5::delprop 6::delcst 7:4:verbf 8:5:s2p 9::delcst 10:9:POSchange 11:8:synonym 12::delcst 14:11,12:synonym 15,20:13,14:synonym 17::delcst 22,23,24:20,21,22:synonym 25:23,24,25:synonym 26:26:hyperonym 28::delcst 29:29:hyperonym :6:incst :7:inmod :16:incst :28:incst
+157 2:3,2:synonym 10:11:hyperonym 20:21,22:hyperonym
+158 1:2,3:synonym 2:1,4:synonym 5:7:hyperonym 8:10,11,12:synonym 10::delmod 12,13:16:hyperonym 16:19:verbf 19,20:22,23:hyperonym :14:inoth
+159 4::delmod 7:7:synonym 8,10::delcst 9::delmod 12::delcst 13,14:12,13:move 16:10:move 17::delcst 20:16:synonym 21,24::delcst 22,23:21,22:move 25::deloth :5:inoth :9:incst :20:inprop
+160 0,1,2,3:0:hyperonym 17,18::delcst 19:15:pron 20,22,23:16:hyperonym 24,25,26::delmod 35::delcst 36,37,38,39,40,41,42::delmod :14:split
+161 0,1,2,3,4,5,6,7,8::delprop 9,10::delcst 13,17:2,6:verbf
+162 7:6:move 8::delmod 9:5:move 10,11,12::delmod 13::delcst 14::delcst 16,17:14:synonym 21,22:18:hyperonym 23::delcst 25,24,26::delmod :9:split :10,11:incst :12:inmod
+163 3:3:hyperonym 4,5,6::delmod
+164 0::delmod 1::delcst 8::delcst 12::delcst
+165 0,1,2::delmod 9::delcst 10,11,12,13,14,15,16,17,18::delprop 21:8:hyperonym 26,27,28::delmod
+166 3,4,5::delmod 11::delmod 14::delcst 16,17,18::delmod 27::delcst 37,38,39,40::delmod
+167 2:2:synonym
+168 7,8,9,10,11:7:hyperonym
+169 5:5:synonym 19,20,21,22::deloth 23::delcst 24,25:20,21:synonym :19:incst
+170 13,14::delmod
+171 16,18:16:hyperonym 17::delmod 19,20::delmod
+172 2,3:2,3:hyperonym 11:10:hyperonym 16:15:hyperonym 17,18,19:16,17,18:hyperonym
+173 2:2:hyperonym 4,5,6,7:4:hyperonym 8::delmod 10:7:p2s :5:inmod
+174 2,3,4,5,6:2,14,15,16,17,18:hyperonym 19,20,21,22,23::delprop 24:21:verbf 25:22:hyperonym :19,20:incst
+175 0::delmod 4,3:2:synonym 6,10::delcst 7,8,9::delmod 11:4:hyperonym 12:6:synonym 16,17,18:9:hyperonym 19:10:hyponym 20,26::deloth 22::delmod
+176 5:9:synonym 11,12:4,5:move :3:incst :8:inmod
+177 3,4,5::delprop 6,7,8:3,4,5:hyperonym 10,11::delcst :7:split
+178 1,2:1,2,3:synonym 8,9::delcst 10,11:5,6:move 12::delcst 23::delcst :11:split :12:incst :17,18:inoth :25:incst
+179 2:2:synonym 4:4:hyperonym
+180 3::delmod 5:4:synonym 10::delmod 11:9,10:synonym 12::delmod 13::delcst
+181 1,2,3,4:1,2:synonym 8,9:6,7,8:synonym 11:10:synonym
+182 8:9,10,8:hyponym 9::delcst 12,11,10::delmod 13:13:hyperonym 16:16:hyperonym :11:incst :12:incst
+183 3,4:3,4:synonym 6,7:6,7:synonym 8:8:synonym 9:9:hyperonym 13,14,15,16::delprop 18,19,20:14,15,16:synonym
+184 0,1,2:4,5,6:move 3,5:3:p2a 4:0:synonym :1:incst :2:incst
+185 2,3,4::delmod 7::delcst 10:5:move 11:14:verbf :4:incst :6,7:incst :10:inmod :11:split :12,13:incst
+186 0:9:synonym 1,2::delmod 6:13,14:synonym 8::delcst 12:23,24:synonym 17,19::delprop 18::delmod 20,21:0,1:move :2:incst :3,5,6,7:inprop :4:inmod :8:incst :16:split :17,19:incst :18:incst
+187 1,2,3,4:5,6:hyperonym 15::delcst 17:29:p2s 24,25::delmod 27:37:hyperonym 29::delcst 31:44:hyperonym 32,33,34::delmod 35::delcst 36::delmod :1,2,3,4:inprop :7:incst :11,10,8:incst :9:split :20:incst :23:split :24,25,26,27:incst :39,40,41,42:inmod
+188 4,5::delmod 7::delcst :5:incst
+189 0,1:2,5:move 2,3::delcst 4:3:move 6:0:move :4:incst
+190 0,1::delmod 2::delcst 8,10::delmod 9:5:POSchange
+191 6,7::delprop
+192 0,1::delmod 2::delcst 4,7::deloth 8::delcst 9::delcst 13::delcst :0:incst :4:incst
+193 10,11,12,13::delmod 17::delcst 18,19,20,21::delmod
+194 0,1::delmod 9,10:7,8:move :9:incst
+195 8::delmod 10:10:synonym :5:inoth
+196 2:2:synonym 12,13:12:hyperonym 14:13:synonym
+197 3:3:hyperonym 4,5,6::deloth 7::delcst 11::delcst 12,13::delmod 16::delcst 17,18,19,20,21,22,23,24::deloth 26::delcst 30,31,32,33,34,35,36,37,38,39,40,41,42,43,44::delmod :4,5,6,7,8:inmod :12:incst :17,18:inmod :19:incst :22,23:incst
+198 7:7:hyperonym 9::delmod
+199 8::delcst 9,10,11,12,13,14::delprop 22:15,16:synonym
+200 15::delcst 16:16:synonym :15:split :17:incst
+201 2,4::delcst 3::delmod
+202 3:3:hyponym
+203 18::delcst 19:20:verbf :18:split :19:incst
+204 7:7:hyperonym 11,12,13,14,15,16,17,18,21,22,23,24,19,20,25,26,27,28,29::deloth 30::delcst 31::delcst 32::delmod 36,37::delcst 40::delmod 41::delmod :11:split :17,18:inmod
+205 0::delmod 11,12::delmod 13::delcst 14:9:move 17,18,19,20:13,14:hyperonym 21,22,23::delmod 24,25,31::delcst 27:16:verbf
+206 5,6::delcst 7,8,9:3,4,5:move
+207 3::delmod
+208 8:8:hyperonym
+209 3:3:hyperonym
+210 5:5:hyperonym
+211 2::delmod 18:16:synonym 21::delmod
+212 2,3,4:2:hyperonym 9::delmod 10:8:hyponym 11,12,13:9,10:verbf 17:14:hyperonym :7:inmod
+213 16::delmod 17,18,19:16:hyperonym 21:18:hyperonym 24:21:synonym
+214 2:2:synonym 3::delcst 6,8,9,10:5,6,7:synonym 7::delmod
+215 12,13:12,13:synonym :10:inoth
+216 2:0:hyperonym 3::delcst 4::delcst 5,6:6,7:synonym :1:incst :4:incst :5:incst
+217 8:9,10:hyperonym 9::delcst 18:20:synonym :8:inoth :17:incst
+218 2:2,3,4:synonym
+219 1:1,2,3:synonym 2,3,4::delmod 9:8:hyperonym
+220 7,8,9::deloth 15::delcst 16::deloth 17::delcst :12:incst
+221 9::delmod
+222 0::delmod 1::delcst
+223 0,1,2,3,4,5::deloth 14::delmod
+224 13,12,11:11,12,13:hyperonym 15,16:15,16:hyperonym 18,19::delcst 20:18,19,20,21,22:hyperonym 21::deloth 22,23:23:verbf 25:25:hyperonym 26,27,28::delmod 29:26:hyperonym 32,33,34,35:29,30:synonym
+225 2::delmod 3:2,3:synonym
+226 0,1::delmod 3,4:1,2,3:hyperonym 5:4:hyperonym 7::delmod 8::delcst 9::deloth 10:10:verbf 11:11:hyperonym 18:14:hyperonym 20::delcst 22::deloth 24:19,20,21:synonym 25:18:hyperonym
+227 9,10:9:verbf 11,12,14::delcst 13:31:POSchange 15,16:28,29:move 17:26:hyperonym 20::delmod 21::delcst 23,24:14,15,16,17:synonym 25::delcst 26,27::delprop 28,29,30:24:hyperonym :12:incst :18:incst :19:inoth :20:incst :25,27:incst :30:incst
+228 9:9:hyperonym
+229 8:8:synonym 10:10:synonym
+230 4:6,7:synonym 5:8:hyperonym 15::delmod :2:inoth :4:inoth
+231 2:2:hyperonym 7:7:synonym
+232 0:0,1:synonym 6:7:hyperonym
+233 3::delmod 4:6,5,4,3:synonym
+234 11:11:hyperonym
+235 0::delmod 1::delcst 2::delmod 4:7:synonym 13,14,15:16,17,18:synonym 16::delcst 17:20:verbf 19,20,21,22,23,24:0,1,2,3,4,5:move :19:incst
+236 1,2,3:1:hyperonym 9:7:hyperonym
+237 3:3:hyponym 5,6,7:5:synonym 10:10:synonym 12,13,14:12:pron 17::delcst 20:19:synonym 21:21:synonym :7:incst :9:incst :15,16:inmod :20:incst
+238 3:3:synonym 4:4:hyperonym 5,6,7::delmod 8::delmod 9::delcst 11:7:hyperonym 12::delmod :5:incst
+239 2:2,3,4,5:synonym 3::delmod 4:6,7:hyperonym 7:10:synonym
+240 0,1:3,4:move 2:1:hyperonym 3::delmod 4::delcst 6,10::delmod 7,8:10,11:move 11:7:hyperonym 12:8:move :0,2:incst :5:incst
+241 3::delcst 4,5,6,7,8,9::delprop 10::delcst 13,14::delcst 15::delmod 16:9:POSchange 17::delcst 20::delcst 21,22,25:4,5,6:move 23,24::delcst 26::delmod :3:incst
+242 8::delcst 9,10,11,22,12,13,14,15,16,17,18,19,20,21::delprop :2,3,4:inprop :5:inmod
+243 0,1::delmod 7::delcst 12,13,14,15:10,13,14:synonym 17::delmod :5:incst
+244
+245 0:4:move 1,2:3:p2a 8::delcst 9,10,11,12::delmod 13,14,15:0,1,2:move 16::delcst 17,18,19,20::delprop
+246 0,1,2::delmod 5::delcst 10::delmod :2:incst
+247 2,3,4,5,6,7,8,9,10,11,12::delprop 21,22,23,24::delmod
+248 1:2,3:synonym
+249 4::delmod
+250 :13:split :14,15:incst
+251 7,13::delcst 8,9,10,11,12:18,19,20,21,22:move :15:split :16,17:incst :23,24:incst
+252 2:2:verbf 3::delcst 4:3:POSchange 6::delcst 7,8,9:13,14,15:move 12,13,14::delcst :7:incst :9:split :10,11:incst :12:incst
+253 0,1,2:6,7,8:move 3::delcst 4,5:3,4:move 6::delcst 7:14:move 9:0:move :5:incst :9:split :10,11,12,13,15:incst
+254 0,1:2,5:move 4:4:synonym 5:0:move 6::delcst 7,8,9,10,11,12::delmod 13::deloth 14::delcst 19::delcst 21::delmod 22:8:move :6:inmod :7:split
+255 2,3:15,14,12,13:synonym 5,6,4::delmod 8::delmod 20,21,22::delprop 23,24,25:2,3,4:synonym 26,28,27:0,1,5:move :6:split :9,10,11:inmod
+256 0:0,1,2:synonym 8,9:13,14,15:hyperonym 22::delcst 23:30:verbf 25::delmod 28:34:synonym 32,33::delmod :23:split :29:incst
+257 2::delmod 9:13:synonym 15,16::deloth 17,18,19::delmod 20:22:POSchange :8:split :9,10,11,12:incst :19,20,21:inmod
+258 2:2:synonym 4::delmod 17:21,22:fromPron 20:25:hyperonym 23::delcst 24:28,29,30:synonym 25,26,27,28,29,30,31:32,33,34,35:synonym :14:split :15,16,17,18:incst :31:incst
+259 0,1:2:pron 2,3,4:5,6,7:move 5:8:hyperonym 7:4:hyponym 8:0:move :1:incst
+260 0,1,4,5,8,9,11,10::deloth 6,7,2,3:13,14,16,17:move 14:2:verbf 20:8:verbf :15:incst
+261 0,1::delcst 2:2:hyperonym 6:6:hyperonym 18,19,20,21::delmod :0,1:toImp
+262 0,1,2::fromImp 3::delmod 7:3:verbf
+263 0:4,5:a2p 4:3:s2p 5:6,7,8:synonym 6::delcst 7,8,9,10:9,10:synonym
+264 1:1:hyperonym 2:2:hyperonym 3::delmod
+265 4,5,6,7::delmod
+266 0,1,3,2::delmod 4::delcst 6:1:hyperonym 11,12::delmod 15:8:synonym 19,20,21,22,23,24::deloth 32,33:20:synonym 36:23,24:hyperonym :16:split
+267 11,12::delcst :5:inmod :12:split :13,14:incst
+268 2,3,5:2:synonym 4::delmod
+269 4:4:hyperonym 9::delmod 10:9:synonym
+270 4:4,5:hyperonym 6:7:synonym :12:inmod
+271 0,1::deloth 11:9:synonym
+272 7:7:synonym 9::delmod
+273 0:0:hyperonym 2:2:synonym 5:5,6,8,7:synonym 7,6::delmod 8,9:10:hyperonym 10:12:synonym :9:incst :11:incst
+274 2,3:2:hyperonym 5,30::deloth 6,7::fromImp 9::delcst 10::delmod 11::deloth 12,15:5:synonym 14::delmod 16::delcst 18,17:8,7:hyperonym :14:incst
+275 0:0:synonym 4,5:4:verbf 6,7::delmod 12::delcst 13::delcst 14:14:hyperonym 15::delmod 16::delcst 17,18,19:18,19,21:move :5,6,7:inprop :12:split :13:incst :15:inmod :16:inoth :17,20:incst
+276 1:1:hyperonym 3:3:hyperonym
+277 1,2,3,4,5:1,2:hyperonym 8::delcst 10::delcst 11:8,9:synonym 12:10:POSchange 13,14,15::delmod 18::delcst 24,25:24,26,27:synonym :5:split :7:incst :11:incst :14:split :15:incst :20:incst :22,23,25:incst :28:incst
+278 0::deloth 3:2:hyperonym :7:split :8,9:incst
+279 1::delmod 2:1:hyperonym 3:2:synonym 4:13,14,3:synonym :9:incst
+280 7::delmod 10::delmod 15::delmod 21::delcst 22:20:POSchange 23::delcst
+281 3:3:hyperonym 6:4:move 7,8,9:7:hyperonym 10,11,12:8:synonym 13:9:hyperonym
+282 0,1:4,5:move 2::delcst 13,20::delcst 15,16,17,18,19::delmod 21::delcst :14:incst
+283 8::delmod 17:16:synonym 20::delmod
+284 :7,8:inoth
+285 1:1:hyperonym 2:2:synonym 13,14::delcst 15,16,17,18,19,20,21,22,23:19,20,21,22,23,24,25,26,27:move 24:16,17:a2p 25,26:14,15:move :13:split :18:incst
+286 13,14:15:synonym :13:split :14,16:incst
+287 9,10:9,10:move
+288 0,1:14,15:move 2::delcst 16::delmod
+289 9::delcst 10,11::delmod
+290 5,0:3:hyperonym 6,7::delmod 9,10:1,2:move :0:toImp
+291 3::delcst 4::delmod 8::delmod 10::delcst 11,12,13::delmod 14,17::deloth :3:incst :5:inmod
+292 0::delmod 1::delcst 2::delmod 7:3,4:synonym 8,9,10:7,10,11:synonym 11,12,13::delprop 14:9:move :5,6:inmod :8:incst
+293 0,2:3,4:move 1::delmod 3::delcst 7::delcst 8:18:move 9:19:p2s 10::delcst 16,17,18::delmod 19::delcst 20,21:9,10:move 22,23,24,25,26,27,28::delmod :5:split :6,7,8:incst :11:split :17:incst
+294 1:1:s2p 2,3,4,5,6,7,8,9::delprop 10::delcst 11:2:verbf 12::delmod 13,14::delmod 15,16:3:synonym
+295 4:4:hyperonym 8,9::delcst 14::delcst 15,16:15:synonym 17::delcst 18:17:POSchange 21:21:synonym 23,24:25:p2a 26:29:synonym :8:split :9,10:incst :14:split :16:incst :20:incst :22:split :23:incst :26:incst :28:incst
+296 0,2,3:4,5:synonym 1::delmod 4,5:0,1:move 6::delmod 7:7:s2p 12::delcst 13,15,16,17,18::delprop 14:3:POSchange 19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62::delprop :2:incst :6:incst
+297 0,1:10,11:move 3::delcst 4,5:1,2:move 6::delcst 7,8::delmod 9,10:5,6:move 11::delcst 12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30::delmod :0:incst :3:inmod :4:incst :8:inoth :9:inmod
+298 2::delcst 5:5:hyperonym :1:incst :8:split :9,10:incst
+299 0,1,2::delmod 3::delcst 4::delmod 9::delmod 13,14::delcst 16,17,18::delmod 19:16,13:synonym 20,21::delmod 22:17:hyperonym 23::delcst 24:20,21:synonym 26::delmod 27::delmod 28:23:synonym :7:split :9,10:incst :11:split :12:incst :14,15:incst :18:split :19:incst
+300 5:5:hyperonym
+301 3::delcst 7,8,9::deloth 10:7:synonym 13:11,12,13:synonym 14::delmod 15::delmod 17::delcst 19,20,21::delmod 22,23,24,25,26,27,28:15,16,17,18,19:hyperonym 29::delcst 31::deloth 32:21:synonym 33,34,35,36::delmod 40:25,26,27:synonym
+302 0::delcst 3:2:hyperonym 12:12:synonym 13::delcst 14,15,16::delmod 20::delcst 21::delmod 24:18:hyponym
+303 3::delmod 6:5:synonym 7::delcst 8,9,10:6:hyperonym 11::delmod 13:9:hyperonym 14::delcst 15::delcst 16:11:POSchange 17::delmod :7:incst :10:incst
+304 12:16,17,18:synonym 13,14,15:0,1,2:move 16,17::delcst 18,19:21,22:verbf 20,21,22:26,27,28:move :19:split :20:incst
+305 9:9:hyperonym 31,32,33,34,35:31,32,33,34:synonym 36:36:synonym :35:incst
+306 2,4:2:hyperonym 5,6,7::delmod 10:6:hyperonym 13,14::delcst :9:split :10:incst
+307 0,1,2::deloth 11::delmod 12:10,11:hyponym 13:12:move 14,15::delcst 16,17:8,9:move 26:20:hyperonym 32:26:hyperonym
+308 1,2:1:hyperonym 5:4,5:synonym 9,10:9:hyperonym
+309 3:3:hyperonym 8::delcst 9:9:hyperonym :8:incst
+310 0,1,2,3:0,1:hyperonym 4,5::delmod 7,8:3:synonym 15::delmod 16,18:11:verbf 19,20,25:13,14,17:synonym 23::delmod 24:10:POSchange
+311 4,5,6,7,8::delprop 11:7:hyperonym 14,15,16,17::delprop 18::delcst :4:incst
+312 4,5,6::delmod 8,9,10::delprop 11:5:move 12:6:p2s 16,13,14::delmod 15:4:move
+313 2,3::delmod 4,5,6,7,8,9,10,11,12,13::delprop 16::delmod 18,20:5,6,7:synonym 21,22,23,24::delmod
+314 0,1:8:hyperonym 2,3,4:9,10,11:move 5:5,6,7:synonym 6,7,10,11:0,1,3,4:move 8:2:POSchange 9::delmod 12::delcst 13,14,15,16,17,18,19,20::delprop
+315 3,1,0,2::delprop 4:0:synonym 5:1:hyperonym 7,8,9,10::delmod :2:inmod
+316 1:1:synonym 3,4::delmod 5:6:move 6::delcst 7,8:3,4:move :5:incst
+317 1:1:verbf 2::delcst 6,14::deloth 7,8,9:10,11:synonym 11,12,13,15,16,17,18,19::delmod 20::delcst 22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,21::delprop 41::delcst 42::delcst 43:16:s2p 44,45,46,47,48,50,49,51,52::delprop :2:incst :4:split :5,6,7:incst :13:split :14,15:incst
+318 0,1::delmod 4,5,6::delmod 10::delmod 13:7:hyperonym 14::delcst :8:incst
+319 0,1::delmod 3,4:1:hyperonym 5,6:2,3,4,5,6:synonym 8,9,10,11::delprop 12::delcst 13::delcst 15::delmod :8:incst :10:inmod
+320 5::delmod 10::delcst 11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37::delmod
+321 12:12:synonym
+322 2,3::delmod 8,9,10,11::delmod 12::delcst :6:incst
+323 1:1:synonym
+324 6::delcst 7:9:verbf 12::delcst 13,14,15,16,17,18,19::delmod 24::delcst 25:19,20,21:synonym 27:24:verbf 30:27:synonym :6:split :7,8:incst :18:split :22:incst
+325 3,4,5:3,4:synonym 12:11:hyperonym
+326 2::delmod 8:7:synonym 9:8:verbf
+327 3,5,6,7:3:synonym 4::delmod 13,14,9:5:synonym
+328 8:8,9:synonym 9,10,11,12,13::delmod 14::delcst 15::delcst 25::delmod :21:inmod
+329 1:1:synonym 9,10,11::deloth 12::delcst 14:10:move 16::delcst 19,20,21,22,23,24,25,26::delmod :9:split :11:incst :12:inmod :15:incst
+330 8::delcst 9::delcst 13::delmod 14:12:hyperonym 19::delcst 20,21:18:synonym :8:split :17:incst
+331 2,5::deloth 10::delcst 11,12::delcst :8:incst
+332 1:1:hyperonym 6,7,8::delmod 12::delmod 18::delcst 19,20,21,22,23,24::delmod 27,28,29,30::delprop 34::delcst
+333 0,1,2::deloth 6:3,4:hyperonym 17::delcst 18,19,20,21,22,23,24,25,26,27,28,29,30,31::delprop
+334 1,3:1:verbf 2::delmod 11,16,19,20:4,5,6,7:move 12,13,14,15::delcst 17,18::deloth
+335 1:1:hyperonym 6,7:6:synonym 8,9,10,11::delmod 12::deloth
+336 1:1:synonym 4::delmod 6,7::deloth
+337 0,1,2,3::delmod 4::delcst
+338 0,1::delmod
+339 :4:incst
+340 6:7:hyperonym 8:9:synonym 11::delcst 12:14:verbf 13:15:hyperonym 22:27:move 23:24:move 37::delcst 39::delmod :4:incst :12:split :13:incst :25,26:incst :28:inmod :40:incst :43:incst :44:incst
+341 5,6::delmod 7,9::delcst 10,11::delmod
+342 2,3:3:synonym 17,12,13,14,15,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38::delprop :0:inmod
+343 0,1::delcst 2,3:15,16:move 4:17:hyperonym 5,6,7,8::delmod 9::delcst 10,11,12,15,16,17,18,19,20,21,22:0,1,2,6,7,8,9,10,11,12,13:move 13,14:3,4,5:synonym :14:split :18,19:incst
+344 0::delmod 4,6:13,14:move 5::delcst 7::delmod 9,10,11::delmod
+345 1:1:synonym 4::delmod 11:10:synonym
+346 2::delmod 3::delmod 14,15::delcst :12:split
+347 9::delcst 10,11::delmod
+348 0::delmod 1::delcst 5:3:synonym 8::delcst 9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24::delprop
+349 0,1,2::delmod 3:10:move 4,5,6,7,8,9,10,11::delprop 12::delcst 14:7,8:a2p 15::delcst 16,17:1,2:move :0:incst :3,4:incst :6:inmod :9:incst
+350 0:0:err
+351 0:0:err
+352 7:7,8:synonym 8,9::delcst :9:split
+353 1::delmod 2:1:synonym 3:2,3:verbf 13,14,15::deloth 19:15,16:synonym 21::delmod 24,25,26,27,28,29,30,31,32,33,34,35,37,36,38,39,40,41::deloth
+354 0::delmod 6,7:5,6,7:synonym 12,14,15,16::delmod 19:18:synonym 27:26:hyperonym 29:29,30:synonym 31::delcst 33::delcst 34,35,36,37,38::deloth :15:split :16:inmod :32:incst
+355 0::deloth 5::delcst 6::delmod 13::delcst 14,15,16,17,18,19::delmod :4:split :5,6:incst
+356 0:3:synonym 1,2:4,5:move 3::delcst 6:2:hyperonym 15::delcst 16:16,17:synonym 17,18::delmod 20,21:19:neg2pos 26::delcst 27,28,29:25:fromPron :14:split :15:incst :24,26:incst
+357 7,8:10:synonym 16,17::delcst 18:20:synonym 25:28,29,30:synonym :7:split :8,9:incst :14:inoth :19:split :27:incst
+358 1::delmod 7,8,9:6,7,8,9:synonym 14::delcst :13,15:inmod
