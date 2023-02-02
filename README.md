@@ -11,24 +11,26 @@ If you use the resource, please cite both our work and the paper introducing the
 ASSET<sub>ann</sub>:
 
 ```bibtex
-@inproceedings{assetann,
+@inproceedings{cardon-etal-2022-linguistic,
     title = "Linguistic Corpus Annotation for Automatic Text Simplification Evaluation",
-    author = "Cardon, Rémi  and
+    author = {Cardon, R{\'e}mi  and
       Bibal, Adrien  and
       Wilkens, Rodrigo  and
       Alfter, David  and
-      Norré, Magali  and
-      Müller, Adeline and
-      Watrin, Patrick and
-      François, Thomas",
+      Norr{\'e}, Magali  and
+      M{\"u}ller, Adeline  and
+      Watrin, Patrick  and
+      Fran{\c{c}}ois, Thomas},
     booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
     month = dec,
     year = "2022",
     address = "Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
-    url = "https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.121/",
+    url = "https://aclanthology.org/2022.emnlp-main.121",
     pages = "1842--1866",
+    abstract = "Evaluating automatic text simplification (ATS) systems is a difficult task that is either performed by automatic metrics or user-based evaluations. However, from a linguistic point-of-view, it is not always clear on what bases these evaluations operate. In this paper, we propose annotations of the ASSET corpus that can be used to shed more light on ATS evaluation. In addition to contributing with this resource, we show how it can be used to analyze SARI{'}s behavior and to re-evaluate existing ATS systems. We present our insights as a step to improve ATS evaluation protocols in the future.",
 }
+
 ```
 ASSET:
 
