@@ -1,7 +1,7 @@
 # ASSET<sub>ann</sub> 
 
 This is the repository for ASSET<sub>ann</sub>, an annotated version of the [ASSET](https://github.com/facebookresearch/asset) dataset.
-The resource description can be found in [Linguistic Corpus Annotation for Automatic Text Simplification Evaluation](https://preview.aclanthology.org/emnlp-22-ingestion/2022.emnlp-main.121/).
+The resource description can be found in [Linguistic Corpus Annotation for Automatic Text Simplification Evaluation](https://aclanthology.org/2022.emnlp-main.121/).
 
 
 
