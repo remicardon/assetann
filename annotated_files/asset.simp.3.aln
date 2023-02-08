@@ -237,7 +237,7 @@
 236 4,5,6::deloth :4,5:inoth
 237 3:3:synonym 12,13::deloth :12:inoth
 238 4::deloth :4,5:inoth
-239 1:1,2,3,4,5:syno 2:6:synonym 4:8,9:syno
+239 1:1,2,3,4,5:synonym 2:6:synonym 4:8,9:synonym
 240 2:2:synonym 3::deloth
 241 3,5,4,6,7::deloth 10::deloth 15::delmod 20::deloth :14:inoth
 242 11::deloth 14,15,16,17::deloth 20::deloth
